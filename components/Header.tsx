@@ -24,9 +24,10 @@ export default function Header() {
           <Image
             src="/images/boating-adventures-captain-chris-logo.jpeg"
             alt="Boating Adventures With Captain Chris logo - boat electronics installation in Harned, Kentucky"
-            width={48}
-            height={48}
-            className="rounded-full md:w-20 md:h-20"
+            width={80}
+            height={80}
+            quality={100}
+            className="w-12 h-12 md:w-20 md:h-20 rounded-full"
           />
           <div className="flex flex-col">
             <span className="text-lg font-bold leading-tight">Boating Adventures</span>

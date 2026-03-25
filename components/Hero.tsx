@@ -23,12 +23,12 @@ export default function Hero({
 }: HeroProps) {
   if (backgroundImage) {
     return (
-      <section className="relative min-h-[60vh] md:min-h-[65vh] flex items-center md:items-end text-white overflow-hidden">
+      <section className="relative min-h-[60vh] md:min-h-[85vh] flex items-center md:items-end text-white overflow-hidden">
         <Image
           src={backgroundImage}
           alt=""
           fill
-          className="object-cover object-center md:object-[center_25%]"
+          className="object-cover object-center"
           priority
           sizes="100vw"
           quality={95}
